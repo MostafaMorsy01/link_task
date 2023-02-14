@@ -13,9 +13,8 @@ struct ContentView: View {
     @Environment(\.scenePhase) var scenePhase
 
     var body: some View {
-        NavigationView {
-           
-            Text("Select an item")
+        ZStack{
+            SplashScreenView()
         }
     }
 
@@ -28,6 +27,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .preferredColorScheme(.light)
+            
         
     }
 }

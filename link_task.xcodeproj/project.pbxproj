@@ -18,7 +18,16 @@
 		84416B2A299B0A6500ED16BF /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B27299B0A6500ED16BF /* Language.swift */; };
 		84416B2D299B0B0B00ED16BF /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84416B2F299B0B0B00ED16BF /* Localization.strings */; };
 		84416B33299B0B9C00ED16BF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B31299B0B9B00ED16BF /* Helper.swift */; };
-		84416B34299B0B9C00ED16BF /* Network in Resources */ = {isa = PBXBuildFile; fileRef = 84416B32299B0B9C00ED16BF /* Network */; };
+		84416B3A299B114300ED16BF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B39299B114300ED16BF /* LoginView.swift */; };
+		84416B3E299B146A00ED16BF /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B3D299B146A00ED16BF /* SplashScreenView.swift */; };
+		84416B41299B197300ED16BF /* LoginHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B40299B197300ED16BF /* LoginHeaderView.swift */; };
+		84416B43299B211900ED16BF /* InputTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B42299B211900ED16BF /* InputTextFieldView.swift */; };
+		84416B45299B288400ED16BF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B44299B288400ED16BF /* LoginViewModel.swift */; };
+		84416B47299B28BD00ED16BF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B46299B28BD00ED16BF /* LoginModel.swift */; };
+		84416B4D299B29B900ED16BF /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B49299B29B900ED16BF /* BaseNetwork.swift */; };
+		84416B4E299B29B900ED16BF /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B4A299B29B900ED16BF /* BaseResponse.swift */; };
+		84416B4F299B29B900ED16BF /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B4B299B29B900ED16BF /* TargetType.swift */; };
+		84416B50299B29B900ED16BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84416B4C299B29B900ED16BF /* Constants.swift */; };
 		C5FBC9B0E22DDDE1A3F4A347 /* Pods_link_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D897DC72FEBAE3CD6EAC4C3D /* Pods_link_task.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +46,16 @@
 		84416B2E299B0B0B00ED16BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
 		84416B30299B0B0E00ED16BF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localization.strings; sourceTree = "<group>"; };
 		84416B31299B0B9B00ED16BF /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		84416B32299B0B9C00ED16BF /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
+		84416B39299B114300ED16BF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		84416B3D299B146A00ED16BF /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		84416B40299B197300ED16BF /* LoginHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHeaderView.swift; sourceTree = "<group>"; };
+		84416B42299B211900ED16BF /* InputTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextFieldView.swift; sourceTree = "<group>"; };
+		84416B44299B288400ED16BF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		84416B46299B28BD00ED16BF /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		84416B49299B29B900ED16BF /* BaseNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
+		84416B4A299B29B900ED16BF /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		84416B4B299B29B900ED16BF /* TargetType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		84416B4C299B29B900ED16BF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D897DC72FEBAE3CD6EAC4C3D /* Pods_link_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_link_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD9D081C38E0A04E9414FEC /* Pods-link_task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-link_task.release.xcconfig"; path = "Target Support Files/Pods-link_task/Pods-link_task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +78,6 @@
 				0E6D080FD3225D90F58EFC71 /* Pods-link_task.debug.xcconfig */,
 				FBD9D081C38E0A04E9414FEC /* Pods-link_task.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -110,6 +127,8 @@
 		84416B21299B092A00ED16BF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				84416B3B299B143800ED16BF /* InitialScreen */,
+				84416B35299B111B00ED16BF /* LoginModule */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -128,6 +147,7 @@
 		84416B23299B094400ED16BF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84416B3F299B195D00ED16BF /* Components */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -135,10 +155,80 @@
 		84416B24299B094B00ED16BF /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				84416B48299B29A300ED16BF /* Network */,
 				84416B31299B0B9B00ED16BF /* Helper.swift */,
-				84416B32299B0B9C00ED16BF /* Network */,
 			);
 			path = Manager;
+			sourceTree = "<group>";
+		};
+		84416B35299B111B00ED16BF /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				84416B38299B113400ED16BF /* Model */,
+				84416B37299B112C00ED16BF /* ViewModel */,
+				84416B36299B112600ED16BF /* View */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		84416B36299B112600ED16BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84416B39299B114300ED16BF /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84416B37299B112C00ED16BF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				84416B44299B288400ED16BF /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		84416B38299B113400ED16BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84416B46299B28BD00ED16BF /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84416B3B299B143800ED16BF /* InitialScreen */ = {
+			isa = PBXGroup;
+			children = (
+				84416B3C299B144800ED16BF /* View */,
+			);
+			path = InitialScreen;
+			sourceTree = "<group>";
+		};
+		84416B3C299B144800ED16BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84416B3D299B146A00ED16BF /* SplashScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84416B3F299B195D00ED16BF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84416B40299B197300ED16BF /* LoginHeaderView.swift */,
+				84416B42299B211900ED16BF /* InputTextFieldView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		84416B48299B29A300ED16BF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				84416B49299B29B900ED16BF /* BaseNetwork.swift */,
+				84416B4A299B29B900ED16BF /* BaseResponse.swift */,
+				84416B4C299B29B900ED16BF /* Constants.swift */,
+				84416B4B299B29B900ED16BF /* TargetType.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		A4F9758F157A4ED5CF0B009A /* Frameworks */ = {
@@ -211,7 +301,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84416B16299AF69B00ED16BF /* Preview Assets.xcassets in Resources */,
-				84416B34299B0B9C00ED16BF /* Network in Resources */,
 				84416B2D299B0B0B00ED16BF /* Localization.strings in Resources */,
 				84416B13299AF69B00ED16BF /* Assets.xcassets in Resources */,
 			);
@@ -267,13 +356,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				84416B18299AF69B00ED16BF /* Persistence.swift in Sources */,
+				84416B47299B28BD00ED16BF /* LoginModel.swift in Sources */,
 				84416B11299AF69900ED16BF /* ContentView.swift in Sources */,
 				84416B29299B0A6500ED16BF /* LocalizationService.swift in Sources */,
+				84416B41299B197300ED16BF /* LoginHeaderView.swift in Sources */,
+				84416B3A299B114300ED16BF /* LoginView.swift in Sources */,
 				84416B2A299B0A6500ED16BF /* Language.swift in Sources */,
+				84416B4E299B29B900ED16BF /* BaseResponse.swift in Sources */,
 				84416B28299B0A6500ED16BF /* Strings.swift in Sources */,
 				84416B1B299AF69B00ED16BF /* link_task.xcdatamodeld in Sources */,
+				84416B4D299B29B900ED16BF /* BaseNetwork.swift in Sources */,
+				84416B45299B288400ED16BF /* LoginViewModel.swift in Sources */,
+				84416B3E299B146A00ED16BF /* SplashScreenView.swift in Sources */,
 				84416B0F299AF69900ED16BF /* link_taskApp.swift in Sources */,
 				84416B33299B0B9C00ED16BF /* Helper.swift in Sources */,
+				84416B43299B211900ED16BF /* InputTextFieldView.swift in Sources */,
+				84416B4F299B29B900ED16BF /* TargetType.swift in Sources */,
+				84416B50299B29B900ED16BF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,8 +520,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -431,9 +530,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mostafa.link-task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,8 +554,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,9 +564,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mostafa.link-task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

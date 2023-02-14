@@ -10,7 +10,7 @@ import Alamofire
 
 final class BaseNetwork<T:TargetType>{
 
-    static func request<M:Codable>(Target:T,responseModel:M.Type,completion: @escaping ( Bool , M?, String?) -> ()) {
+    static func request<M:Codable,E:Codable>(Target:T,responseModel:M.Type,ModelError:E.Type,completion: @escaping ( Bool , M?, String?) -> ()) {
         let method = Alamofire.HTTPMethod(rawValue: Target.method.rawValue)
         let parameters = buildparameters(paramaters: Target.parameter)
         let headers = Alamofire.HTTPHeaders(Target.header ?? [:])
@@ -107,7 +107,13 @@ final class BaseNetwork<T:TargetType>{
                     })
                 }
             }
-
+//                if let data = image?.jpegData(compressionQuality: 0.8), image != nil {
+//                    //be carefull and put file name in withName parmeter
+//                    multipartFormData.append(data, withName: withName , fileName: "file.jpeg", mimeType: "image/jpeg")
+//                }else{
+//                    print("cant get image data")
+//                    completion(false, nil,"imageError")
+//                }
             
         },     to: Target.url,
                   method: method,
@@ -115,7 +121,10 @@ final class BaseNetwork<T:TargetType>{
         )
                 
         
-
+//            .uploadProgress(queue: .main, closure: { progress in
+//                //Current upload progress of file
+//                print("Upload Progress: \(progress.fractionCompleted)")
+//            })
             .responseDecodable(completionHandler: { ( response : DataResponse<M?, AFError>) in
                     switch response.result{
                     case .success(let model):
@@ -176,7 +185,13 @@ final class BaseNetwork<T:TargetType>{
                     })
                 }
             }
-
+//                if let data = image?.jpegData(compressionQuality: 0.8), image != nil {
+//                    //be carefull and put file name in withName parmeter
+//                    multipartFormData.append(data, withName: withName , fileName: "file.jpeg", mimeType: "image/jpeg")
+//                }else{
+//                    print("cant get image data")
+//                    completion(false, nil,"imageError")
+//                }
             
         },     to: Target.url,
                   method: method,
@@ -184,7 +199,10 @@ final class BaseNetwork<T:TargetType>{
         )
                 
         
-
+//            .uploadProgress(queue: .main, closure: { progress in
+//                //Current upload progress of file
+//                print("Upload Progress: \(progress.fractionCompleted)")
+//            })
             .responseDecodable(completionHandler: { ( response : DataResponse<M?, AFError>) in
                     switch response.result{
                     case .success(let model):
@@ -324,7 +342,12 @@ final class BaseNetwork<T:TargetType>{
                 }
             }
                 
-
+//            let count = imagesData?.count
+//
+//            for i in 0..<count!{
+//
+//                multipartFormData.append((imagesData?[i])! as! URL, withName: "photo[\(i)]", fileName: "photo\(i).jpeg", mimeType: "image/jpeg")
+//                    }
 //            // import image to request
             for (index,image) in imagesData!.enumerated() {
 

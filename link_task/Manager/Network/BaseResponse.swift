@@ -26,3 +26,7 @@ struct BaseResponse<T:Codable> : Codable {
     }
 }
 
+struct ErrorModel: Codable {
+    let errorCode: Int
+    let message: String
+}
